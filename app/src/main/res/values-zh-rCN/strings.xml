@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LanguageSettingDemo</string>
+
+    <string name="info"> 汉语（中文简体） </string>
+</resources>

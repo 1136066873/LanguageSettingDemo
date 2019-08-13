@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hegd.languagesettingdemo.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语言切换结果展示(" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="展示文字跟随系统语言设置" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=")：" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:text="@string/info"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_switch_to_zh_CN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 中文简体"/>
+
+    <Button
+        android:id="@+id/btn_switch_to_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 英语"/>
+
+    <Button
+        android:id="@+id/btn_switch_to_de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 德语"/>
+
+    <Button
+        android:id="@+id/btn_switch_to_fr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 法语"/>
+
+
+    <Button
+        android:id="@+id/btn_switch_to_ru_RU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 俄语"/>
+
+    <Button
+        android:id="@+id/btn_switch_to_en_IN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 英语(印度)"/>
+
+    <Button
+        android:id="@+id/btn_switch_to_en_TH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 英语(泰国)"/>
+
+    <Button
+        android:id="@+id/btn_switch_to_en_PM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置语言为 英语(巴基斯坦)"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="关闭应用."/>
+
+
+</LinearLayout>

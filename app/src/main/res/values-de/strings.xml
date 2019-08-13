@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LanguageSettingDemo</string>
+
+    <string name="info"> Deutsch（德语） </string>
+</resources>
